@@ -1,0 +1,10 @@
+let ctv: string [] =["china","denmark","usa","brazil","argentina"];
+console.log("orignal order",ctv); 
+console.log("alphabatical order:",[...ctv].sort()); 
+console.log("still in orignal order:",ctv);
+console.log("reverse order:",[...ctv].reverse());
+console.log("still in orignal order:",ctv);
+console.log("orignal array reserved:",ctv.reverse());   
+console.log("back to orignal order:",ctv.reverse());
+console.log("sorted in alphabatcal order:",ctv.sort());
+console.log("orignal array reserved again:",ctv.reverse());  
